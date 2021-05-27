@@ -47,6 +47,8 @@ It can be used like `React.useState`:
 ```jsx
 import { useAtom } from 'jotai'
 
+const countAtom = atom(0)
+
 function Counter() {
   const [count, setCount] = useAtom(countAtom)
   return (
